@@ -1,9 +1,9 @@
 sources:
   - name: jaffle_shop
-    database: raw
+    database: dbt-tutorial
     schema: jaffle_shop
     tables:
-      - name: customers 
+      - name: customers
       - name: orders
         config:
           freshness:
